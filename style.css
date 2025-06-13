@@ -26,6 +26,10 @@
   align-items: center;
 }
 
+.flex-as-c {
+  align-self: center;
+}
+
 .flex-grow-1 {
   flex-grow: 1;
 }
