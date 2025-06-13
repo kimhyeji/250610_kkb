@@ -16,6 +16,8 @@
 <body>
   <header class="con_min_width">
     <div class="con flex height-100p">
+
+      <!-- 로고 -->
       <div class="logo_wrap flex-as-c">
         <a href="#">
           <img src="../imgs/logo_black.svg" alt="">
@@ -24,6 +26,7 @@
 
       <div class="flex-grow-1"></div>
 
+      <!-- 중간 메뉴 -->
       <nav class="menu_box">
         <ul class="flex height-100p">
           <li>
@@ -275,19 +278,26 @@
         </ul>
       </nav>
 
-      <!-- 이미지 버전 -->
-       <div class="dropdown flex-as-c">
-        <button class="dropBtn">관련사이트</button>
+      <!-- 관련사이트 이미지 버전 -->
+      <div class="dropdown flex-as-c">
+      <button class="dropBtn">관련사이트</button>
 
-        <div class="dropdown_content">
-          <ul>
-            <li><a href="#" target="_blank"><span>카카오뱅크 AD</span></a></li>
-            <li><a href="#" target="_blank"><span>카카오뱅크 인증서</span></a></li>
-            <li><a href="#" target="_blank"><span>금융기술연구소</span></a></li>
-            <li><a href="#" target="_blank"><span>기술블로그</span></a></li>
-          </ul>
-        </div>
-       </div>
+      <div class="dropdown_content">
+        <ul>
+          <li><a href="#" target="_blank"><span>카카오뱅크 AD</span></a></li>
+          <li><a href="#" target="_blank"><span>카카오뱅크 인증서</span></a></li>
+          <li><a href="#" target="_blank"><span>금융기술연구소</span></a></li>
+          <li><a href="#" target="_blank"><span>기술블로그</span></a></li>
+        </ul>
+      </div>
+      </div>
+
+      <!-- 글로벌 파트 -->
+      <div class="flex-as-c">
+        <a href="#" class="global_logo">
+          <img src="../imgs/icon_eng.svg" alt="">
+        </a>
+      </div>
     </div>
   </header>
 
@@ -549,6 +559,21 @@
       margin-left: 8px;
       margin-top: -3px;
       vertical-align: middle;
+    }
+
+    /* 글로벌 로고 */
+    header .global_log {
+      display: inline-block;
+      width: 20px;
+    }
+
+    header .global_logo > img {
+      width: 100%;
+      display: block;
+    }
+
+    header .global_logo:hover > img {
+      opacity: .4;
     }
     /* ---------- 헤더 끝 ----------*/
   </style>
